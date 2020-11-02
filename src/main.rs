@@ -1,10 +1,14 @@
-use std::process;
+//use std::process;
 // mod print;
-mod variables;
+//mod variables;
+// mod types;
+// mod tuples;
+mod arrays;
 
 fn main() {
-    println!("My pid is {}", process::id());
+//    println!("My pid is {}", process::id());
 //    print::run();
-    variables::run();
+//    variables::run(125);
+    arrays::run();
 }
 
