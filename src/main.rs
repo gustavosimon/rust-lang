@@ -3,12 +3,13 @@
 //mod variables;
 // mod types;
 // mod tuples;
-mod arrays;
+//mod arrays;
+mod conditionals;
+//mod vectors;
 
 fn main() {
-//    println!("My pid is {}", process::id());
-//    print::run();
-//    variables::run(125);
-    arrays::run();
+    //    println!("My pid is {}", process::id());
+    //    print::run();
+    //    variables::run(125);
+    conditionals::run();
 }
-
