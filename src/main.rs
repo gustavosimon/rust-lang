@@ -8,11 +8,14 @@
 // mod vectors;
 // mod loops;
 // mod functions;
-mod pointers_ref;
+// mod pointers_ref;
+// mod structs;
+// mod enums;
+mod cli;
 
 fn main() {
     //    println!("My pid is {}", process::id());
     //    print::run();
     //    variables::run(125);
-    pointers_ref::run();
+    cli::run();
 }
