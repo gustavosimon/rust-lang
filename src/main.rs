@@ -1,15 +1,18 @@
-//use std::process;
+// use std::process;
 // mod print;
-//mod variables;
+// mod variables;
 // mod types;
 // mod tuples;
-//mod arrays;
-mod conditionals;
-//mod vectors;
+// mod arrays;
+// mod conditionals;
+// mod vectors;
+// mod loops;
+// mod functions;
+mod pointers_ref;
 
 fn main() {
     //    println!("My pid is {}", process::id());
     //    print::run();
     //    variables::run(125);
-    conditionals::run();
+    pointers_ref::run();
 }
