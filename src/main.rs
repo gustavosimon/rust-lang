@@ -11,11 +11,12 @@
 // mod pointers_ref;
 // mod structs;
 // mod enums;
-mod cli;
+// mod cli;
+mod files;
 
 fn main() {
     //    println!("My pid is {}", process::id());
     //    print::run();
     //    variables::run(125);
-    cli::run();
+    files::run();
 }
